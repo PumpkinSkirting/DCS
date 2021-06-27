@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/static/style.css" rel="stylesheet">
+    <meta http-equiv="Refresh" content="1" />
+</head>
+<body>
+<header>
+    <!--<img class="logo" src="/static/img/ЛОДОЧКА.png" >--!>
+</header>
+    <form method="POST">
+        <div class="frame">
+            <input type="submit" name="action" value="Start" class="custom-btn actButton"><input type="submit" name="action" value="Stop" class="custom-btn actButton"><br>
+            <input type="submit" name="action" value="UP" class="custom-btn actButton"><input type="submit" name="action" value="DOWN" class="custom-btn actButton"><br>
+            <input type="submit" name="action" value="UP1" class="custom-btn actButton"><input type="submit" name="action" value="DOWN1" class="custom-btn actButton"><br>
+            <input type="submit" name="action" value="UP2" class="custom-btn actButton"><input type="submit" name="action" value="DOWN2" class="custom-btn actButton"><br>
+            <input type="submit" name="action" value="FORWARD" class="custom-btn actButton"><input type="submit" name="action" value="BACK" class="custom-btn actButton"><br>
+            <input type="submit" name="action" value="RIGHT" class="custom-btn actButton"><input type="submit" name="action" value="LEFT" class="custom-btn actButton">
+        </div>
+    </form>
+    <form method="POST">
+    </form>
+    <p>Status: {{ start_state }}</p>
+    <p>Global: {{ global_value }}</p>
+    <p>Дрон говорит: {{dron_i}}</p>
+
+</body>
+</html>

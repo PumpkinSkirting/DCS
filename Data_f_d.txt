@@ -1,0 +1,11 @@
+@app.route('/name/<username>')
+def name(username):
+    return username
+
+@app.route('/update')
+def update():
+    return '<html><head></head><body><script></script></body>'
+0
+0
+0
+0
